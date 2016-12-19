@@ -1,5 +1,5 @@
 // Applicaiton constatns
-var thermo_url = '107.194.152.114';
+var thermo_url = process.env.Thermo_url;
 var thermo_port = 8090;
 var prefered_summer_temp = 68;
 var prefered_winter_temp = 72;
